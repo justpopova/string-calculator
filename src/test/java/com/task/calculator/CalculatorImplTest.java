@@ -1,13 +1,11 @@
-package com.task;
+package com.task.calculator;
 
-import com.task.calculator.Calculator;
-import com.task.calculator.CalculatorImpl;
 import com.task.exception.CalculatorInputException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class CalculatorTest {
+class CalculatorImplTest {
     private Calculator calculator;
 
     @BeforeEach
