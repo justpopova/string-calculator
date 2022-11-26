@@ -56,7 +56,7 @@ class CalculatorImplTest {
     }
 
     @Test
-    public void calculate_null_notValid() {
+    public void calculate_null_must_return_0() {
         String actual = null;
         int expected = 0;
         Assertions.assertEquals(expected, calculator.calculate(actual),
